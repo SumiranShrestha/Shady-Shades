@@ -129,11 +129,11 @@ $grand_total = $total_price + $delivery_charge;
                     <h5 class="mb-3">2. Delivery Address</h5>
                     <div class="mb-3">
                         <label class="form-label">City / District *</label>
-                        <input type="text" name="city" class="form-control" required />
+                        <input type="text" name="city" class="form-control" value="<?= htmlspecialchars($user['city'] ?? ''); ?>" required />
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Address *</label>
-                        <input type="text" name="address" class="form-control" required />
+                        <input type="text" name="address" class="form-control" value="<?= htmlspecialchars($user['address'] ?? ''); ?>" required />
                     </div>
 
                     <button type="button" id="placeOrderBtn" class="btn btn-success place-order-btn">Place Order</button>

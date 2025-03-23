@@ -92,7 +92,7 @@ $final_total = $total_price + $shipping_cost;
             </tbody>
         </table>
         
-        <h4>Total: <span id="totalPrice">रू <?php echo number_format($final_total); ?></span></h4>
+        <h4>Total: <span id="totalPrice">रू <?php echo number_format($final_total); ?></span> /-</h4>
         <button class="btn btn-danger" id="clearCart">Clear Cart</button>
         <a href="checkout.php" class="btn btn-success">Proceed to Checkout</a>
     <?php } else { ?>
