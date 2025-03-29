@@ -193,6 +193,11 @@
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="prescription-frames.php">Prescription Frames</a>
                     </li>
+                    <li>
+                          <li class="nav-item mx-2">
+                        <a class="nav-link" href="doctors.php">Doctors</a>
+                    </li>
+                    </li>
                 </ul>
             </div>
         </nav>
